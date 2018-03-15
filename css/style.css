@@ -18,7 +18,7 @@ button {
     display: block;
     margin: 0 auto;
     color: white;
-    font-size: 120%;
+    font-size: 1em;
     text-decoration: none;
     background-color: #b288c0;
     min-width: 250px;
@@ -35,7 +35,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 3% 0;
-    box-shadow: 5px -9px 3px #000
+    box-shadow: 0px 1px 15px #000;
 }
 
 nav > div {
@@ -215,6 +215,14 @@ button a {
     align-items: center;
 }
 
+.maravilhosas > div {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
 .maravilhosas div > div {
     display: flex;
     flex-direction: column;
@@ -225,13 +233,7 @@ button a {
     max-width: 28%;
 }
 
-.maravilhosas > div {
-    font-family: 'montserrat', Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: center;
-}
+
 
 .maravilhosas a > img {
     width: 80%;
@@ -285,7 +287,7 @@ button a {
     .projeto div {
         width: 50%;
         align-content: space-around;
-        height: 100vh;
+        min-height: 100vh;
     }
 }
 
@@ -724,6 +726,7 @@ button a {
 
 /* Título >>>> SOBRE herda propriedades de página >>>> PERFIL */
 
+
 .pg-sobre div > img {
     width: 100%;
 }
@@ -760,6 +763,7 @@ button a {
 }
 
 .dados div p:nth-child(1) {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
     font-size: 5em;
     margin: 0;
     font-weight: 700;
@@ -787,7 +791,7 @@ button a {
     text-align: center;
     min-width: 130px;
     max-width: 16%;
-    height: 27vh;
+    min-height: 27vh;
     position: relative;
 }
 
